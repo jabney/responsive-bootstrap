@@ -4,7 +4,57 @@
   <div class="container-fluid">
     <div class="row">
 
-      <aside class="col-sm-2">
+      <!-- The section comes first for the default xs sizes -->
+      <!-- Exchange column positions (push/pull) for sm and md sizes -->
+
+      <!-- push -->
+      <section class="col-sm-9 col-md-8 col-sm-push-3 col-md-push-2">
+        <article>
+          <h2>Why I Went Into the Lake</h2>
+          <img src="../../images/lake.jpg" />
+          <div class="row">
+            <p class="col-sm-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="col-sm-2">
+              <input type="button" class="btn btn-primary" value="More..." />
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h2>My Name is NOT Bullwinkle</h2>
+          <img src="../../images/elk.jpg" />
+          <div class="row">
+            <p class="col-sm-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="col-sm-2">
+              <input type="button" class="btn btn-primary" value="More..." />
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h2>There's Gotta be a Penguin Up Here Somewhere</h2>
+          <img src="../../images/snowboarder.jpg" />
+          <div class="row">
+            <p class="col-sm-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="col-sm-2">
+              <input type="button" class="btn btn-primary" value="More..." />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- pull -->
+      <aside class="col-sm-3 col-md-2 col-sm-pull-9 col-md-pull-8">
         <h4 class="range-title">
           <b>Mountain Ranges</b>
         </h4>
@@ -36,10 +86,9 @@
             <h4>West Elk Mountains</h4>
           </a>
         </div>
-
       </aside>
 
-      <aside class="sports-icon-list col-sm-2">
+      <aside class="sports-icon-list col-xs-12 col-md-2">
         <a href="downhill.html">
           <img src="../../images/icon-downhill.png" alt="Downhill" />
           <h6>Downhill</h6>
