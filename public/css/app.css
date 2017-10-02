@@ -1,99 +1,102 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, footer {
-  background-color: #333;
-  color: #ddd;
-  padding: 20px;
-  text-align: center;
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
 }
 
 aside {
-  background-color: #f7f7f7;
-  text-align: center;
-  padding-top: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .range-list {
-  padding-bottom: 40px;
-  padding-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .range-list h4 {
-  margin-bottom: 40px;
-  color: darkorange;
-  font-weight: bold;
+    margin-bottom: 40px;
+    color: darkorange;
+    font-weight: bold;
 }
 .range-list img {
-  width: 100%;
-  height: 100%;
-  max-width: 140px;
-  max-height: 60px;
+    width: 100%;
+    height: 100%;
+    max-width: 140px;
+    max-height: 60px;
 }
 .range-title {
-  color: darkblue;
+    color: darkblue;
 }
 
 .sports-icon-list {
-  background-color: #333;
-  padding-bottom: 40px;
+    background-color: #333;
+    padding-bottom: 40px;
 }
 .sports-icon-list a {
-  color: white;
+    color: white;
 }
 .sports-icon-list a h6 {
-  margin-top: 2px;
-  margin-bottom: 14px;
+    margin-top: 2px;
+    margin-bottom: 14px;
 }
 .sports-icon-list img {
-  width:70px;
-  height:70px;
+    width:70px;
+    height:70px;
 }
 
 .sports-list-top div {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .sports-list-top a {
-  margin-left: 30px;
-  margin-right: 30px;
-  display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 article {
-  padding: 40px;
+    padding: 40px;
 }
 article img {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  box-shadow: 6px 6px 8px #777;
-  margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
 }
 article p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 @media (max-width: 767px) {
-  .range-list h4 {
-    display: inline;
-    font-size: 18px;
-  }
 
-  .range-list a {
-    display: block;
-  }
+    .range-list h4 {
+        display: inline;
+        font-size: 18px;
+    }
 
-  .range-list img {
-    width: 33%;
-    height: 33%;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-  }
+    .range-list a {
+        display: block;
+    }
+
+    .range-list img {
+        width: 33%;
+        height: 33%;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
 }
+
 
 /* The following code is used to create same-sized columns
    in a multi-column layout.
@@ -102,56 +105,56 @@ article p {
 */
 /* columns of same height styles */
 .container-xs-height {
-  display:table;
-  padding-left:0px;
-  padding-right:0px;
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
 }
 .row-xs-height {
-  display:table-row;
+    display:table-row;
 }
 .col-xs-height {
-  display:table-cell;
-  float:none;
+    display:table-cell;
+    float:none;
 }
 @media (min-width: 768px) {
-  .container-sm-height {
-      display:table;
-      padding-left:0px;
-      padding-right:0px;
-  }
-  .row-sm-height {
-      display:table-row;
-  }
-  .col-sm-height {
-      display:table-cell;
-      float:none;
-  }
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
 }
 @media (min-width: 992px) {
-  .container-md-height {
-      display:table;
-      padding-left:0px;
-      padding-right:0px;
-  }
-  .row-md-height {
-      display:table-row;
-  }
-  .col-md-height {
-      display:table-cell;
-      float:none;
-  }
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
 }
 @media (min-width: 1200px) {
-  .container-lg-height {
-      display:table;
-      padding-left:0px;
-      padding-right:0px;
-  }
-  .row-lg-height {
-      display:table-row;
-  }
-  .col-lg-height {
-      display:table-cell;
-      float:none;
-  }
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
 }
