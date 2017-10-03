@@ -1,5 +1,5 @@
 
-  <header>
+  <header id="video-wallpaper">
     <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
       <div class="container-fluid">
 
@@ -26,9 +26,9 @@
   </header>
 
   <div class="container-fluid">
-    <div class="row">
+    <!-- <div class="row">
       <div class="fill-screen" style="background-image:url(/images/lake.jpg)"></div>
-    </div>
+    </div> -->
     <div class="row content-filler"></div>
     <div class="row">
       <div class="fill-screen fixed-attachment" style="background-image:url(/images/elk.jpg)"></div>
@@ -48,5 +48,14 @@
   <script>
     $(window).on('load resize', function () {
       $('.fill-screen').css('height', window.innerHeight)
+    })
+
+    $('#video-wallpaper').background({
+      source: {
+        poster: '/images/bikes.png',
+        mp4: '/images/bikes.mp4',
+        // ogg: '/images/bike.ogv',
+        // webm: '/images/bike.webm'
+      }
     })
   </script>
