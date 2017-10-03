@@ -1,6 +1,5 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 80px;
 }
 
 .navbar {
@@ -22,20 +21,15 @@ body {
   }
 }
 
-.img-responsive {
-  margin: 0px auto;
-  border: 3px solid darkblue;
-  box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 60px;
+.fill-screen {
+  background-size: cover;
+  background-position: center;
 }
+
 
 .navbar > div:first-child {
   padding-left: 0;
 }
-
-/* .navbar .navbar-header img {
-  width: 300px;
-  height: 50px;
-} */
 
 .navbar-inverse .navbar-nav > li > a {
   color: #bbb;
