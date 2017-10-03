@@ -1,5 +1,5 @@
 
-  <!-- <header>
+  <header>
     <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
       <div class="container-fluid">
 
@@ -23,14 +23,22 @@
         </div>
       </div>
     </nav>
-  </header> -->
+  </header>
 
   <div class="container-fluid">
     <div class="row">
-      <img src="/images/lake.jpg" class="img-responsive">
+      <div class="fill-screen" style="background-image:url(/images/lake.jpg)"></div>
+
+      <!-- <img src="/images/lake.jpg" class="img-responsive"> -->
     </div>
   </div>
 
-  <!-- <footer class="container-fluid">
+  <footer class="container-fluid">
     <h1>FOOTER</h1>
-  </footer> -->
+  </footer>
+
+  <script>
+    $(window).on('load resize', function () {
+      $('.fill-screen').css('height', window.innerHeight)
+    })
+  </script>
