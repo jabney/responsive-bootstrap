@@ -3,21 +3,17 @@
   var _project = window[namespace] = Object.create(null);
 
   _project.scrollListener = function scrollListener(throttleTime, callback) {
-    var eventStack = []
+    var event = null;
 
     function onScroll() {
-      if (eventStack.length === 0) {
-        eventStack.push(callback)
+      if (event === null) {
+        event = callback
         window.setTimeout(function () {
-          if (eventStack.length) {
-            eventStack.pop()()
-          }
-          while(eventStack.length) {
-            eventStack.pop()
-          }
+          event()
+          event = null
         }, throttleTime);
       } else {
-        eventStack.push(callback)
+        event = callback
       }
     }
 
