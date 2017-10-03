@@ -16,9 +16,7 @@
             eventStack.pop()
           }
         }, throttleTime);
-      }
-
-      else {
+      } else {
         eventStack.push(callback)
       }
     }
