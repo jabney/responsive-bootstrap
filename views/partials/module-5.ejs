@@ -1,0 +1,62 @@
+
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#"><img src="/images/site-logo-white-70pct.png"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Sights</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="fill-screen" style="background-image:url(/images/lake.jpg)"></div>
+      </div>
+      <div class="row content-filler"></div>
+      <div class="row">
+        <div class="fill-screen fixed-attachment" style="background-image:url(/images/elk.jpg)"></div>
+      </div>
+    </div>
+    <div class="row content-filler"></div>
+      <div class="row">
+        <div class="fill-screen fixed-attachment" style="background-image:url(/images/snowboarder.jpg)"></div>
+      </div>
+    </div>
+    <div class="row content-filler"></div>
+
+    <footer class="container-fluid">
+      <h1>FOOTER</h1>
+    </footer>
+
+    <script>
+      $(window).on('load resize', function () {
+        $('.fill-screen').css('height', window.innerHeight)
+      })
+
+      // $('#video-wallpaper').background({
+      //   source: {
+      //     poster: '/images/bikes.png',
+      //     mp4: '/images/bikes.mp4'
+      //     // ogg: '/images/bike.ogv',
+      //     // webm: '/images/bike.webm',
+      //     // video: '//www.youtube.com/embed/RNDOF3R7DuA'
+      //   }
+      // })
+    </script>
