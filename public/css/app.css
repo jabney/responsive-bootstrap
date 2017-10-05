@@ -1,6 +1,7 @@
 body {
+  position: relative;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 110px;
+  /* padding-top: 110px; */
 
 }
 
@@ -8,7 +9,7 @@ body {
   margin-bottom: 0px;
   padding: 30px 15px;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.25s;
 }
 @media (max-width: 400px) {
   .navbar-header {
@@ -27,10 +28,14 @@ body {
 }
 
 
-.cbp-af-header-shrink {
+.navbar.cbp-af-header-shrink {
   padding-top: 5px;
   padding-bottom: 5px;
   opacity: 0.9;
+}
+
+#logo-section {
+  position: relative;
 }
 
 .fill-screen {
@@ -54,7 +59,7 @@ body {
 
 .down-button {
   position: absolute;
-  bottom: 40px;
+  bottom: 80px;
   width: 100%;
   text-align: center;
 }
