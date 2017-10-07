@@ -20,6 +20,8 @@
       e.preventDefault()
     })
 
-    $(window).stellar()
+    // $(window).stellar()
+
+    new WOW().init()
   })
 })()
