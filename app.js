@@ -25,6 +25,8 @@ app.use('/font-awesome', express.static(
   path.join(__dirname, 'node_modules/font-awesome')));
 app.use('/formstone', express.static(
   path.join(__dirname, 'node_modules/formstone/dist')));
+app.use('/nanogallery2', express.static(
+  path.join(__dirname, 'node_modules/nanogallery2/dist')));
 
 app.use('/', index);
 app.use('/users', users);

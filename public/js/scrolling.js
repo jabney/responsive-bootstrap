@@ -23,5 +23,16 @@
     // $(window).stellar()
 
     new WOW().init()
+
+    $('#nanogallery2').nanogallery2({
+      thumbnailHeight:  150,
+      thumbnailWidth:   'auto',
+      thumbnailAlignment: 'justified',
+      thumbnailGutterWidth: 20,
+      thumbnailGutterHeight: 20,
+      thumbnailHoverEffect2: 'borderDarker|labelAppear75',
+      thumbnailLabel: { position: 'overImageOnBottom', hideIcons: true }
+      // "itemsBaseURL":     "http://nanogallery2.nanostudio.org/samples/"
+    })
   })
 })()
